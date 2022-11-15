@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import Dnd from './Dnd';
 import './App.css';
+import RefHook from './RefHook';
+// import Greet from './Greet';
+// import Logged from './Logged';
 
-function App() {
+
+
+const App=()=>{
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet styles={{padding:"20px", border:"5px solid red"}} name="Himanshu" /> */}
+      {/* <Logged /> */}
+      <Dnd />
+      {/* <RefHook /> */}
     </div>
+    </>
   );
 }
-
 export default App;
